@@ -1,0 +1,53 @@
+// Import variables
+@import 'variables';
+
+// Base Typography Styles
+* {
+  font-family: $primary-font;
+  font-size: $base-font-size;
+  line-height: 1.5;
+  color: $text-color;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: $primary-font;
+  font-weight: $font-weight-bold;
+  color: $primary-color;
+  margin-bottom: $spacing-unit;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: $heading-font-size-h1;
+}
+
+h2 {
+  font-size: $heading-font-size-h2;
+}
+
+h3 {
+  font-size: $heading-font-size-h3;
+}
+
+h4, h5, h6 {
+  font-size: $paragraph-font-size * 1.2; 
+}
+
+// Paragraphs
+p {
+  font-size: $paragraph-font-size;
+  margin-bottom: $spacing-unit * 2;
+  line-height: 1.5;
+}
+
+// Links
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+}

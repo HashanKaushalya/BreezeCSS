@@ -1,0 +1,42 @@
+@import 'variables';
+
+
+.container {
+  max-width: 1200px;     
+  margin: 0 auto;        
+  padding: $spacing-md;
+  padding-left: $spacing-lg;  
+}
+
+.container-fluid {
+  width: 100%;           
+  padding: $spacing-md; 
+}
+
+.row {
+    display: flex;         
+    flex-wrap: wrap;        
+    margin-left: -$spacing-md;  
+    margin-right: -$spacing-md;
+  }
+  
+  .col {
+    flex: 1;               
+    padding-left: $spacing-md;  
+    padding-right: $spacing-md;
+  }
+  
+
+  .col-6 {
+    flex: 0 0 50%;        
+  }
+  
+  .col-12 {
+    flex: 0 0 100%;     
+  }
+  
+  @media (max-width: $breakpoint-sm) {
+    .col-6 {
+      flex: 0 0 100%;     
+    }
+  }
