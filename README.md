@@ -64,3 +64,38 @@ Tables
 
 ## Utility Classes
 
+BreezeCSS includes utility classes for quick styling. Here are some examples:
+
+<p class="text-primary">This text is in the primary color.</p>
+<p class="font-weight-bold">This text is bold.</p>
+<p class="font-size-lg">This text is larger.</p>
+<div class="m-3 p-3 border">This div has margin, padding, and a border.</div>
+
+## Customization
+
+### Using Sass Variables
+
+To customize BreezeCSS, modify the Sass variables defined in the _variables.scss file. Here are some key variables you can change:
+
+$primary-color: #3498db;  // Change the primary color
+$font-size-base: 16px;     // Change the base font size
+$heading-font-weight: 700; // Change the font weight for headings
+
+### Compiling Sass
+
+After making your changes, you will need to compile the Sass files into CSS. Use the following command:
+
+sass input.scss output.css
+
+Replace input.scss with your main Sass file and output.css with the desired output filename.
+
+### Including Customized CSS
+
+After compiling, include your customized CSS in your HTML file:
+
+<link rel="stylesheet" href="path/to/your-custom-breeze.css">
+
+# Conclusion
+
+By following these instructions, you can easily install, use, and customize BreezeCSS for your web projects.
+
