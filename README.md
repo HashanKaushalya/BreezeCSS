@@ -89,7 +89,7 @@ $heading-font-weight: 700; // Change the font weight for headings
 
 After making your changes, you will need to compile the Sass files into CSS. Use the following command:
 
-sass input.scss output.css
+`sass input.scss output.css`
 
 Replace input.scss with your main Sass file and output.css with the desired output filename.
 
@@ -99,7 +99,7 @@ After compiling, include your customized CSS in your HTML file:
 
 <link rel="stylesheet" href="path/to/your-custom-breeze.css">
 
-# Conclusion
+## Conclusion
 
 By following these instructions, you can easily install, use, and customize BreezeCSS for your web projects.
 
