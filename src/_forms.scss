@@ -1,15 +1,21 @@
 
 form {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
+    justify-content: center;  
     align-items: flex-start;
-    gap: $spacing-md;        
+    gap: $spacing-sm;
+    background-color: $form-color;
+    padding: $spacing-md;
+    margin: 0 auto; 
+    width: 450px;
+    border-radius: 1rem;
   }
   
   input[type="text"],
   input[type="email"] {
-    width: 50%;                
-    max-width: 300px;    
+    width: 100%;                
+    max-width: 400px;    
     padding: $spacing-sm;
     border: 1px solid $primary-color; 
     border-radius: 4px;
@@ -17,26 +23,27 @@ form {
   }
   
   label {
-    margin-bottom: $spacing-sm;     
+    margin-bottom: 0.2rem;     
     font-weight: $font-weight-bold;   
   }
   
   button[type="submit"] {
     width: 50%;             
-    max-width: 100px;    
-    padding: $spacing-sm $spacing-lg;
+    max-width: 100px;
+    padding: $spacing-sm;    
     background-color: $primary-color;
     color: #fff;
     border: none;
     border-radius: 4px;
     width: 100%;
     margin-top: $spacing-md;
+    align-self: center;
   }
   
 
   @media (max-width: $breakpoint-sm) {
     form {
-      flex-direction: column;        
+      flex-direction: column;     
     }
   
     input[type="text"],

@@ -1,0 +1,276 @@
+@import 'variables';
+
+//TEXT ALIGNMENT
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+//NO-PADDING
+.p-0{
+    padding: 0;
+}
+
+//PADDING-TOP
+.pt-1{
+    padding-top: $spacing-sm;
+}
+
+.pt-2{
+    padding-top: $spacing-md;
+}
+
+.pt-3{
+    padding-top: $spacing-lg;
+}
+
+//PADDING-BOTTOM
+.pb-1{
+    padding-bottom: $spacing-sm;
+}
+
+.pb-2{
+    padding-bottom: $spacing-md;
+}
+
+.pb-3{
+    padding-bottom: $spacing-lg;
+}
+
+//PADDING-LEFT
+.pl-1{
+    padding-left: $spacing-sm;
+}
+
+.pl-2{
+    padding-left: $spacing-md;
+}
+
+.pl-3{
+    padding-left: $spacing-lg;
+}
+
+//PADDING-RIGHT
+.pr-1{
+    padding-right: $spacing-sm;
+}
+
+.pr-2{
+    padding-right: $spacing-md;
+}
+
+.pr-3{
+    padding-right: $spacing-lg;
+}
+
+//NO-MARGIN
+.m-0{
+    margin: 0;
+}
+
+//OVERALL MARGIN
+.m-1 {
+    margin: $spacing-sm;
+}
+
+.m-2 {
+    margin: $spacing-md;
+}
+
+.m-3 {
+    margin: $spacing-lg;
+}
+
+MARGIN-TOP
+.mt-1{
+    margin-top: $spacing-sm;
+}
+
+.mt-2{
+    margin-top: $spacing-md;
+}
+
+.mt-3{
+    margin-top: $spacing-lg;
+}
+
+//MARGIN-BOTTOM
+.mb-1{
+    margin-bottom: $spacing-sm;
+}
+
+.mb-2{
+    margin-bottom: $spacing-md;
+}
+
+.mb-3{
+    margin-bottom: $spacing-lg;
+}
+
+//MARGIN-LEFT
+.ml-1{
+    margin-left: $spacing-sm;
+}
+
+.ml-2{
+    margin-left: $spacing-md;
+}
+
+.ml-3{
+    margin-left: $spacing-lg;
+}
+
+//MARGIN-RIGHT
+.mr-1{
+    margin-right: $spacing-sm;
+}
+
+.mr-2{
+    margin-right: $spacing-md;
+}
+
+.mr-3{
+    margin-right: $spacing-lg;
+}
+
+
+// FONT SIZE
+.font-sm{
+    font-size: 0.8rem;
+}
+
+.font-md{
+    font-size: 1rem;
+}
+
+.font-lg{
+    font-size: 1.2rem;
+}
+
+.font-xl{
+    font-size: 1.5rem;
+}
+
+// FONT WEIGHT
+.font-light{
+    font-weight: 300;
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+// 3D BUTTON HOVER EFFECT
+.button-3d-primary{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 5px #0056b3;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: #0056b3;
+        box-shadow: 0 2px #004494;
+        transform: translateY(3px);
+    }
+
+    &:active {
+        background-color: #004494;
+        box-shadow: 0 0 #004494;
+        transform: translateY(5px);
+    }
+}
+
+.button-3d-secondary{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:#e2dc40;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 5px #e2dc40;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: #e2dc40;
+        box-shadow: 0 2px #e2dc40;
+        transform: translateY(3px);
+    }
+
+    &:active {
+        background-color: #e2dc40;
+        box-shadow: 0 0 #e2dc40;
+        transform: translateY(5px);
+    }
+}
+
+// SMOOTH HOVER UNDERLINE EFFECT
+.link-underline {
+    position: relative;
+    text-decoration: none;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: currentColor;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        color: $primary-font
+    }
+}
+
+//FONT COLOR
+.primary-text-color{
+    color: $primary-color;
+}
+
+.secondary-text-color{
+    color: $secondary-color;
+}
+
+//BORDER STYLES
+.border-primary{
+    border: 2px solid $primary-color;
+}
+
+.border-secondary{
+    border: 1px solid $secondary-color;
+}
+
+//BACKGROUND COLOR
+.bg-primary{
+    background-color: $primary-color;
+}
+
+.bg-secondary{
+    background-color: $secondary-color;
+}
+

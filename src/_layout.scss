@@ -1,11 +1,17 @@
 @import 'variables';
 
+//Utility classes for layout
+
 
 .container {
   max-width: 1200px;     
   margin: 0 auto;        
   padding: $spacing-md;
-  padding-left: $spacing-lg;  
+  padding-left: $spacing-md;  
+}
+
+.main{
+  margin: $margin-lg;
 }
 
 .container-fluid {
