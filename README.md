@@ -38,7 +38,7 @@ Lists
 </ul>
 
 Buttons
-[Click Me]([your-link-here](https://github.com/HashanKaushalya/BreezeCSS))
+[![Click Me](https://via.placeholder.com/150/3498db/FFFFFF?text=Click+Me)](https://github.com/HashanKaushalya/BreezeCSS)
 
 Forms
 <form>
