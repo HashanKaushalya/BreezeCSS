@@ -38,14 +38,7 @@ Lists
 </ul>
 
 Buttons
-<a href="https://github.com/HashanKaushalya/BreezeCSS" style="display: inline-block; 
-   background-color: #3498db; 
-   color: white; 
-   text-align: center; 
-   border-radius: 15px; /* Rounded corners */
-   padding: 3px 5px; /* Height and width */
-   text-decoration: none; /* Remove underline */
-   font-size: 12px;">Click Me</a>
+<a> click me </a>
 
 
 Forms
