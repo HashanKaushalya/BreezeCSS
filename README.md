@@ -38,7 +38,15 @@ Lists
 </ul>
 
 Buttons
-[![Click Me](https://via.placeholder.com/150/3498db/FFFFFF?text=Click+Me)](https://github.com/HashanKaushalya/BreezeCSS)
+<a href="https://github.com/HashanKaushalya/BreezeCSS" style="display: inline-block; 
+   background-color: #3498db; 
+   color: white; 
+   text-align: center; 
+   border-radius: 15px; /* Rounded corners */
+   padding: 3px 5px; /* Height and width */
+   text-decoration: none; /* Remove underline */
+   font-size: 12px;">Click Me</a>
+
 
 Forms
 <form>
