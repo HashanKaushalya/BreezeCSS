@@ -78,7 +78,9 @@ BreezeCSS includes utility classes for quick styling. Here are some examples:
 To customize BreezeCSS, modify the Sass variables defined in the _variables.scss file. Here are some key variables you can change:
 
 $primary-color: #3498db;  // Change the primary color  
+
 $font-size-base: 16px;     // Change the base font size  
+
 $heading-font-weight: 700; // Change the font weight for headings  
 
 
