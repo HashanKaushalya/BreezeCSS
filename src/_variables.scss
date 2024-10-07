@@ -1,7 +1,9 @@
 // Colors
+//Utility classes for colors
 $primary-color: #3458db;
 $secondary-color: #e2dc40;
 $background-color: #f5f5f5;
+$form-color: #e7e7e7;
 $text-color: #333;
 
 // Fonts
@@ -17,7 +19,7 @@ $font-weight-bold: 700;
 
 
 // Spacing
-$spacing-unit: 8px;
+$spacing-unit: 2rem;
 $spacing-sm: $spacing-unit * 0.5;   
 $spacing-md: $spacing-unit;         
 $spacing-lg: $spacing-unit * 2;     
